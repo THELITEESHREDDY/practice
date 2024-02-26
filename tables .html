@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tables and forms(no css)</title>
+</head>
+<body>
+    <h1>Today's Topic is <big style="color:rgb(255, 4, 4) ;size: 60px;">Tables</big> and 
+        <big style="color:rgb(129, 214, 0)">Forms</big><sup style="color:red">inHTML!</sup><sub style="color:rgb(147, 217, 8)">no Css^</sub></big> </h1>
+    <div style="background-color:rgb(188, 231, 248)">
+      <p>Before we go
+        <ul>
+             <li><big> <b style="color:brown; size:70px"><u>what are table's ?</u></b></big><br></li>
+             <li>Why do we need to use  <big style="background-color:rgb(111, 244, 111)"><u>Table's?</u></big></li>
+
+        </ul>
+          Table is nothing but an organised form of information about common things.<br><br>
+          <bold>There are various things involved in <u><big style="color:rgb(255, 38, 0)">Tables.</big></u></bold><br>
+          <dl>
+             <dt><strong>Table Head-th tag</strong></dt>
+             <dd>Table head defines the head of the table in which heading is given.</dd>
+             
+             <dt><strong>Table Data-td tag</strong></dt>
+             <dd>Information to be presented in the table</dd>
+             <dt><strong>Table Row-tr tag</strong></dt>
+             <dd>Tell's in which row we have to insert the values.</dd>
+          </dl>
+    
+     </p> 
+    </div>
+    <div style="background-color: rgb(238, 183, 79);">
+        <h2>Now, let's create a table!</h2>
+        <p style="padding-left: 60px;"> 
+            Table is about marks list. 
+            <table border="1" cellpadding="9" cellspacing="0" width="device-width">
+                <thead >
+                    <th>Name</th>
+                    <th>Maths</th>
+                    <th>Science</th>
+                    <th>English</th>
+                    <th>Physics</th>
+                    <th>GK</th>
+                </thead>
+                <tdata>
+                    <tr>
+                        <td>David</td>
+                        <td>85</td>
+                        <td>87</td>
+                        <td>88</td>
+                        <td>92</td>
+                        <td>88</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Richard</td>
+                        <td>91</td>
+                        <td>81</td>
+                        <td>78</td>
+                        <td>71</td>
+                        <td>74</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Jhon</td>
+                        <td>81</td>
+                        <td>86</td>
+                        <td>88</td>
+                        <td>84</td>
+                        <td>92</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Tony</td>
+                        <td>84</td>
+                        <td>86</td>
+                        <td>87</td>
+                        <td>82</td>
+                        <td>81</td>
+                        
+                    </tr>
+                </tdata>
+            </table>
+            
+        </p>
+
+
+    </div>
+    <div style="background-color: cornflowerblue;">
+         <h2>Another kind of table,<u><strong style="background-color:rgb(165, 240, 54)">where heading of table is given!!</strong></u> where heading of table is given!!</h2>
+          <table border="1"  cellspacing="0" bordercolor="red" cellpadding="9">
+            <thead >
+                <tr><th colspan="6"><b>Mark's of Student's</b></th></tr>
+                
+           
+                <th>Name</th>
+                <th>Maths</th>
+                <th>Science</th>
+                <th>English</th>
+                <th>Physics</th>
+                <th>GK</th>
+            </thead>
+            <tdata>
+                <tr>
+                    <td>David</td>
+                    <td>88</td>
+                    <td>78</td>
+                    <td>99</td>
+                    <td>76</td>
+                    <td>66</td>
+                </tr>
+                <tr>
+                    <td>Richard</td>
+                    <td>85</td>
+                    <td>66</td>
+                    <td>77</td>
+                    <td>68</td>
+                    <td>85</td>
+                
+                </tr>
+                <tr>
+                    
+                        <td>Jhon</td>
+                        <td>85</td>
+                        <td>44</td>
+                        <td>78</td>
+                        <td>69</td>
+                        <td>95</td>
+                    
+                </tr>
+            </tdata>
+          </table>
+
+    </div>
+    <div style="background-color:greenyellow">
+        <h2>Now, let' deep dive into <strong style="color:rgb(9, 121, 191)"><u>Form's</u></strong> </h2>
+        <p>To give and take informaton between end user and web site form's are introduced.
+            There are various things to know about forms in html.<br>
+            <b><u>List of things involved in making form's</u></b>  
+            <list>
+                <ol >
+                    <li>Input</li>
+                    <li>Label</li>
+                    <li>Button's</li>
+                    <li>Text-Area</li>
+                    <li>Text Input</li>
+                    <li>Radio Buttons</li>
+                    <li>Checkboxes</li>
+                    <li>meathod attribute</li>
+                    <li>Actoin attribute</li>
+
+                </ol>
+            </list>
+        </p>
+        <p>Now let's create a registration from:
+            <form> 
+                <fieldset>
+                    <legend> Student Information</legend>
+                    <label for="firstname">First Name</label><br>
+                    <input type="text" id="firstname" name="FirstName"><br>
+                
+                    <label for="MiddleName">Middle Name</label><br>
+                    <input type="text" id="MiddleName" name="MiddleName"><br>
+                
+                    <label for="lastName">Last Name</label><br>
+                    <input type="text" id="lastName" name="LastName"><br>
+
+                    <label for="date">Date of Birth</label><br>
+                    <input type="date" id="date" name="date"><br>
+
+                    <label for="Gender" >Gender</label><br>
+                    <input type="radio" id="Gender" name="Gender" value="Male">Male<br>
+
+                    <input type="radio" value="Female" id="Gender" name="Gender" >Female<br>
+                    <input type="radio" value="other" id="Gender" name="Gender">Other's<br>
+
+                    <label for="email">E-mail</label><br>
+                    <input id="email" type="email" name="E-Mail"><br>
+
+                    <label for="Course">Course:</label><br>
+                    <select id="Course" name="Course" size="1">
+                        <option value="select">"select"</option>
+                        <option value="CSE">CSE</option>
+                        <option value="ECE">ECE</option>
+                        <option value="EEE">EEE</option>
+                        <option value="MEC">MEC</option>
+                        <option value="CS by Research">CS by Research</option>
+                    </select><br>
+
+                    <label for="username">username</label><br>
+                    <input type="text" id="username" name="username" ><br>
+
+                   
+
+                    <label for="url">Enter Your Portfolio Url</label><br>
+                    <input id="url" name="website" placeholder="http://example.com"><br>
+
+                    <label for="img" >Image of Student</label><br>
+                    <input type="file" id="img"  width="6px" name="Image"><br>
+                   
+
+                    
+                     <label for="Password">Password:</label><br>
+                    <input id="Password" type="password" name="password"><br>
+
+                    <input type="checkbox" name="iAgree" value="iAgree">I agree to terms and Conditions<br>
+
+                    <button type="submit" value="submit" >SUBMIT</button>
+
+                </fieldset>
+            </form>
+        </p>
+    </div>
+</body>
+</html>
