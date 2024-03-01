@@ -4,19 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tables and forms(no css)</title>
+    <link type="text/css" href="style.css" rel="stylesheet">
 </head>
 <body>
-    <h1>Today's Topic is <big style="color:rgb(255, 4, 4) ;size: 60px;">Tables</big> and 
-        <big style="color:rgb(129, 214, 0)">Forms</big><sup style="color:red">inHTML!</sup><sub style="color:rgb(147, 217, 8)">no Css^</sub></big> </h1>
-    <div style="background-color:rgb(188, 231, 248)">
+    <h1>Today's Topic is <big id="big">Tables</big> and 
+        <big id="forms">Forms</big><sup id="big">inHTML!</sup><sub id="forms">no Css^</sub></big> </h1>
+    <div id="div1">
       <p>Before we go
         <ul>
-             <li><big> <b style="color:brown; size:70px"><u>what are table's ?</u></b></big><br></li>
-             <li>Why do we need to use  <big style="background-color:rgb(111, 244, 111)"><u>Table's?</u></big></li>
+             <li><big> <b id="div1underline"><u>what are table's ?</u></b></big><br></li>
+             <li>Why do we need to use  <big id="q"><u>Table's?</u></big></li>
 
         </ul>
           Table is nothing but an organised form of information about common things.<br><br>
-          <bold>There are various things involved in <u><big style="color:rgb(255, 38, 0)">Tables.</big></u></bold><br>
+          <bold>There are various things involved in <u><big id="bigtable2">Tables.</big></u></bold><br>
           <dl>
              <dt><strong>Table Head-th tag</strong></dt>
              <dd>Table head defines the head of the table in which heading is given.</dd>
@@ -29,11 +30,11 @@
     
      </p> 
     </div>
-    <div style="background-color: rgb(238, 183, 79);">
+    <div id="div2">
         <h2>Now, let's create a table!</h2>
-        <p style="padding-left: 60px;"> 
+        <p class="padding"> 
             Table is about marks list. 
-            <table border="1" cellpadding="9" cellspacing="0" width="device-width">
+            <table class="tables" cellpadding="4" border="2" cellspacing="0">
                 <thead >
                     <th>Name</th>
                     <th>Maths</th>
@@ -86,8 +87,8 @@
 
 
     </div>
-    <div style="background-color: cornflowerblue;">
-         <h2>Another kind of table,<u><strong style="background-color:rgb(165, 240, 54)">where heading of table is given!!</strong></u> where heading of table is given!!</h2>
+    <div id="div3">
+         <h2>Another kind of table,<strong id="headings">where heading of table is given!!</strong> where heading of table is given!!</h2>
           <table border="1"  cellspacing="0" bordercolor="red" cellpadding="9">
             <thead >
                 <tr><th colspan="6"><b>Mark's of Student's</b></th></tr>
@@ -132,7 +133,7 @@
           </table>
 
     </div>
-    <div style="background-color:greenyellow">
+    <div id="div4">
         <h2>Now, let' deep dive into <strong style="color:rgb(9, 121, 191)"><u>Form's</u></strong> </h2>
         <p>To give and take informaton between end user and web site form's are introduced.
             There are various things to know about forms in html.<br>

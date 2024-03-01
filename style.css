@@ -1,0 +1,35 @@
+#big{
+    color:red;
+    text-transform:initial;
+}
+
+#forms{
+    color:rgb(97, 255, 5)
+}
+#div1underline{
+color:brown;
+}
+#div1{
+    background-color:aqua
+}
+#bigtable2{
+    color: red;
+}
+#q{
+    background-color: rgb(252, 144, 12);
+    text-decoration:solid;
+    
+}
+#div2{
+    background-color:rgb(252, 212, 112);
+}
+#div3{
+    background-color: rgb(110, 176, 237);
+}
+#headings{
+    background-color: yellowgreen;
+    text-align: justify;
+}
+#div4{
+    background-color: greenyellow;
+}
