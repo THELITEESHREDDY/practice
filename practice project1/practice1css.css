@@ -1,0 +1,19 @@
+#h3{
+    color:red;
+    text-align: center;
+    
+}
+#label1{
+    color: blue;
+    text-align: center;
+}
+#button1{
+   display:block;
+   margin:auto;
+    padding: 30px 40px;
+    font-size: 40px;
+    color: white;
+    border-radius: 28px;
+    text-align: center;
+    background-color: rgb(64, 239, 72);
+}
