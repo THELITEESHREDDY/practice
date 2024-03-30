@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&family=Oswald:wght@200..700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:  "Oswald", sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(174, 25, 25);
+
+}
+
+.calculator{
+  border: 4px solid rgb(242, 169, 74);
+  border-radius: 14px;
+  padding: 5px;
+}
+#input{
+  border-radius: 9px;
+  padding: 15px;
+  font-size: 24px;
+  padding-right: 90px;
+  background: rgb(198, 55, 55);
+  cursor: pointer;
+  
+
+}
+#inputs{
+  border-radius: 9px;
+  padding: 25px;
+  
+  color: bisque;
+  background: rgb(3, 1, 1);
+  font-size: 25px;
+}
+#inputs1{
+  border-radius: 9px;
+  padding: 25px;
+  padding-left: 30px ;
+  color: bisque;
+  background: rgb(3, 1, 1);
+  font-size: 25px;
+}
+#inputs2{
+  border-radius: 9px;
+  padding: 25px;
+  
+  color: bisque;
+  background: rgb(3, 1, 1);
+  font-size: 25px;
+}
+#inputs3{
+  border-radius: 9px;
+  padding: 25px;
+  padding-right: 5p;
+  color: bisque;
+  background: rgb(3, 1, 1);
+  font-size: 25px;
+}
+#inputs4{
+  border-radius: 9px;
+  padding-bottom:16px ;
+ 
+  padding-right: 40px;
+  padding-left:39px;
+  justify-content: center;
+  color: bisque;
+  background: rgb(3, 1, 1);
+  font-size: 45px;
+
+}
+#buttons{
+padding: 9px;
+padding-left: 7px;
+padding-right: 7px;
+padding-top: 9px;
+padding-bottom: 9px;
+}
+#r1{
+  padding-top:9px;
+  padding-right: px;
+}
